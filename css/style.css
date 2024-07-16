@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header {
+    
+    padding: 1%;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #000000, #181818d0);
+}
+header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header a{
+    color:rgb(11, 11, 11);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    color: white;
+}
+
+header a:hover {
+    color:rgb(64, 28, 0);
+    transform: scale(1.05)
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+/* nav {
+    background-color: #333;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color:#fff;
+} */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url('/images/ice-cream.png');
+    background-size: cover;
+    color: white;
+}
+
+.home-content{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.about-content {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #353434, #000000d0);
+    gap: 10%;
+    align-items: center;
+    color: rgb(255,255,255)
+}
+
+.contact-form {
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    width: auto;
+    border: 0;
+    outline: 0;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+}

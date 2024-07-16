@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Henrique Goncalves" />
+	<meta name="description" content="Ice Cream page" />
+    <!-- fonts import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- end of fonts import -->
+    <title>Ice Cream Palace</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="logo" width="100px">
+                </a>
+            </div>
+        
+            <nav>
+                <ul>
+                    <li><a href="#scroll-to-home">Home</a></li>
+                    <li><a href="#scroll-to-about">About</a></li>
+                    <li><a href="#scroll-to-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <section id="scroll-to-home">
+                <div class="home-content">
+                    <h1>Welcome to Ice Cream Palace!</h1>
+                    <h2>Discover the Rich, Creamy Delight of Our Chocolate Ice Cream</h2>
+                    <p>At Ice Cream Palace, we believe in the magic of chocolate ice cream. From the first velvety spoonful to the last, our chocolate ice cream is crafted to perfection, promising a rich and creamy experience that will tantalize your taste buds and leave you craving for more.
+                    </p>
+                </div>
+        </section>
+
+        <section>
+            <div class="ice-cream-gallery">
+                <img src="images/icecream1.png" width="500px" alt="">
+                <img src="images/icecream2.png" width="500px" height="281px" alt="">
+            </div>
+        </section>
+        <section id="scroll-to-about">
+            <div class="container">
+                <div class="about-content">
+                    <h2>Our Story</h2>
+                    <p>Ice Cream Palace started with a simple dream: to create the finest chocolate ice cream in town. Using only the highest quality ingredients, we mix traditional methods with innovative techniques to produce a treat that's both nostalgic and new. Each batch is made with love, ensuring that every scoop is a masterpiece.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="logo" width="100px">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <small>&copy; 2024 Ice Cream Palace. All rights reserved.</small>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="contact.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
